@@ -1,8 +1,7 @@
 local base = "p-chatgame/"
 
-p = p or {
-    chatgame = {}
-}
+p = p or {}
+p.chatgame = {}
 
 if ( SERVER ) then
 
